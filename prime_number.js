@@ -1,13 +1,13 @@
 
-let n =27;
-let c=0;
-for(i=1;i<=n;i++){
-     if (n%i=0){
-   c++;
+let num =27;
+let factor=0;
+for(i=1;i<=num;i++){
+     if (num%i=0){
+   factor++;
    }
 }
-if (c==n){ 
-console.log("Yes")
+if (factor==2){ 
+console.log("Yes it is Prime")
 }
-else { console.log("No")
+else { console.log("No it is not a Prime")
 }
